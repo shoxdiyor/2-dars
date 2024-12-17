@@ -6,6 +6,16 @@
   font-weight: 400;
   src: url("../fonts/figtree-v6-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+/* figtree-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/figtree-v6-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #ffd900;
@@ -47,7 +57,7 @@ body {
   padding: 16px;
 }
 
-.tag {
+.Body__S {
   display: inline-block;
   background-color: #ffd900;
   color: black;
@@ -63,15 +73,15 @@ body {
   margin: 8px 0;
 }
 
-.card-title h2 {
+.Heading h2 {
   font-family: "Figtree";
-  font-size: 15px;
+  font-size: 18px;
   line-height: 18px;
-  font-weight: bold;
+  font-weight: bol;
   margin: 8px 0;
 }
 
-.card-description {
+.Body__M {
   font-size: 14px;
   color: #7f7f7f55;
   margin-bottom: 16px;
