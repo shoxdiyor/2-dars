@@ -37,7 +37,7 @@ body {
   overflow: hidden;
 }
 
-.card-image {
+.card__image {
   height: 180px;
   background-color: white;
   display: flex;
@@ -45,7 +45,7 @@ body {
   align-items: center;
 }
 
-.image-placeholder img {
+.card__img img {
   width: 288px;
   height: 150px;
   object-fit: cover;
@@ -53,11 +53,11 @@ body {
   background-color: #ffffff;
 }
 
-.card-content {
+.card__content {
   padding: 16px;
 }
 
-.Body__S {
+.card__title {
   display: inline-block;
   background-color: #ffd900;
   color: black;
@@ -67,13 +67,13 @@ body {
   padding: 4px 8px;
 }
 
-.published-date {
+.card__subtitle {
   font-size: 12px;
   color: #777;
   margin: 8px 0;
 }
 
-.Heading h2 {
+.card__heading {
   font-family: "Figtree";
   font-size: 18px;
   line-height: 18px;
@@ -81,25 +81,25 @@ body {
   margin: 8px 0;
 }
 
-.Body__M {
+.card__description {
   font-size: 14px;
   color: #7f7f7f55;
   margin-bottom: 16px;
 }
 
-.author {
+.card__author {
   display: flex;
   align-items: center;
 }
 
-.author-avatar {
+.card__avatar {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   margin-right: 8px;
 }
 
-.author-name {
+.card__author-name {
   font-size: 14px;
   font-weight: bold;
 }
